@@ -6,8 +6,7 @@ WELCOME TO VURGUN
 
 
 <p align="center">
-<a href="https://github.com/ByDog3r/azathot"><img width="250px" height="250px" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgitprotect.io%2Fblog%2Fransomware-attacks-on-github-bitbucket-and-gitlab-what-you-should-know%2F&psig=AOvVaw2p8e2nGl35D8ftCAZqlrK2&ust=1632934146277000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDsmvGPovMCFQAAAAAdAAAAABAD
-" title="VURGUN > HACKTOOL" >
+<a href="https://github.com/ByDog3r/azathot"><img width="250px" height="250px" src="https://gitprotect.io/blog/wp-content/uploads/2021/05/ransomware-git-1024x512.png" title="VURGUN > HACKTOOL" >
 </p>
 
 <p align="center">
