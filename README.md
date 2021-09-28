@@ -6,7 +6,7 @@ WELCOME TO VURGUN
 
 
 <p align="center">
-<a href="https://github.com/ByDog3r/azathot"><img width="500px" height="200px" src="https://gitprotect.io/blog/wp-content/uploads/2021/05/ransomware-git-1024x512.png" title="VURGUN > HACKTOOL" >
+<a href="https://github.com/ByDog3r/azathot"><img width="450px" height="200px" src="https://gitprotect.io/blog/wp-content/uploads/2021/05/ransomware-git-1024x512.png" title="VURGUN > HACKTOOL" >
 </p>
 
 <p align="center">
