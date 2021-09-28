@@ -6,11 +6,11 @@ WELCOME TO VURGUN
 
 
 <p align="center">
-<a href="https://github.com/ByDog3r/azathot"><img width="450px" height="200px" src="https://gitprotect.io/blog/wp-content/uploads/2021/05/ransomware-git-1024x512.png" title="VURGUN > HACKTOOL" >
+<a href="https://github.com/Notron00/Vurgun"><img width="450px" height="200px" src="https://gitprotect.io/blog/wp-content/uploads/2021/05/ransomware-git-1024x512.png" title="VURGUN > HACKTOOL" >
 </p>
 
 <p align="center">
-<a href="https://github.com/ByDog3r"><img title="Autor" src="https://img.shields.io/badge/Author-@ByDog3r-blue?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Notron00"><img title="Autor" src="https://img.shields.io/badge/Author-@ByDog3r-blue?style=for-the-badge&logo=github"></a>
 <a href=""><img title="Version" src="https://img.shields.io/badge/Version-1.0-red?style=for-the-badge&logo="></a>
 </p>
 <p align="center">
