@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys,os,subprocess
+import sys,os,subprocess,pathlib
 
 root=subprocess.check_output(["id"])
 
@@ -20,6 +20,13 @@ try:
 except:
     print("[!] Please run install.sh if you don't know pls read the README.md")
     exit()
+
+
+
+
+
+
+
 
 g = fg("green")
 r = fg("red")
@@ -91,7 +98,10 @@ def usage():
     """)
 
 
-    
+path = pathlib.Path(__file__).parent.resolve()
+convert = str(path).split("/main")
+convert2 = convert[0]
+cpath = str(convert2) + "/scripts"
 
 
 try:
@@ -106,6 +116,7 @@ try:
             print(r + "[!] Exited Successfully")
             exit()
         elif mainq == "use tcp":
+            ppath = str(cpath) + "/tcp.py"
             while True:
                 mainq = input(c + "Panel"+r+"~/tcp"+g+"$ "+w).lower()
                 if mainq == "back":
@@ -140,9 +151,10 @@ try:
 
                     print(g + f"[+] Launching Attack - {ip} | {str(port)} ")
                     
-                    os.system(f"python3 tcp.py {ip} {int(port)}")
+                    os.system(f"python3 {ppath} {ip} {int(port)}")
                     
         elif mainq == "use udp":
+            ppath = str(cpath) + "/udp.pl"
             while True:
                 mainq = input(c + "Panel"+r+"~/udp"+g+"$ "+w).lower()   
                 if mainq == "back":
@@ -163,19 +175,33 @@ try:
                     convert = mainq.split("set port")
                     port = convert[1]
                     print(c +"[*] PORT -->> "+g+str(port))
+                
+                elif "set byte" in mainq:
+                    convert = mainq.split("set byte")
+                    byte = convert[1]
+                    print(c+"[*] BYTE -->> "+g+str(byte))
+
+
                 if mainq == "run":
                     if ip is None:
-                        print("[-] ip is None")
+                        print("[-] ip can't be None")
                         exit()
                     if port is None:
                         print("[*] Port is None / default : 80")
                         port = 80
+                    if byte is None:
+                        print("[*] Byte is None / default : 8000")
+                        byte = 8000
 
-                    print(g + f"[+] Launching Attack - {ip} | {str(port)} ")
+
+                    print(g + f"[+] Launching Attack - {ip} | {str(port)} | {str(byte)} ")
+
                     
-                    os.system(f"python3 scripts/udp.py {ip} {int(port)}")
+                    os.system(f"perl {ppath} {ip} {str(port)} {str(byte)} 9999999999999999999999999999999999999999999999999")
+
                     
         elif mainq == "use http":
+            ppath = str(cpath) + "/http.py"
             while True:
                 mainq = input(c + "Panel"+r+"~/http"+g+"$ "+w).lower()
                 
@@ -208,9 +234,10 @@ try:
 
                     print(g + f"[+] Launching Attack - {ip} | {str(port)} ")
                     
-                    os.system(f"python3 /home/kali/Desktop/DDoS/scripts/http.py {ip} {int(port)}")
+                    os.system(f"python3 {ppath} {ip} {int(port)}")
                     
         elif mainq == "use icmp":
+            ppath = str(cpath) + "/icmp.py"
             while True:
                 mainq = input(c + "Panel"+r+"~/icmp"+g+"$ "+w).lower()
                 if mainq == "back":
@@ -241,7 +268,7 @@ try:
 
                     print(g + f"[+] Launching Attack - {ip} | {str(port)} ")
                     
-                    os.system(f"python3 scripts/icmp.py {ip} {int(port)}")
+                    os.system(f"python3 {ppath} {ip} {int(port)}")
                     
 
         elif mainq == "use pscanner":
