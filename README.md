@@ -6,7 +6,7 @@ WELCOME TO VURGUN
 
 
 <p align="center">
-<a href="https://github.com/Notron00/Vurgun"><img src="https://cdn.discordapp.com/attachments/773208377358417940/893238721338556516/pngegg.png" title="VURGUN > HACKTOOL" >
+<a href="https://github.com/Notron00/Vurgun"><img width="250px" height="300px" src="https://cdn.discordapp.com/attachments/773208377358417940/893238721338556516/pngegg.png" title="VURGUN > HACKTOOL" >
 </p>
 
 <p align="center">
