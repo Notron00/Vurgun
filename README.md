@@ -19,7 +19,7 @@ WELCOME TO VURGUN
 </p>
 
 
-
+```
 To run:
 $$
 
@@ -32,3 +32,4 @@ $$
 ps: if you're root you don't need to type 'sudo'
 
 $$
+```
