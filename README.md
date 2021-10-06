@@ -14,7 +14,7 @@ WELCOME TO VURGUN
 <a href=""><img title="Version" src="https://img.shields.io/badge/Version-1.1-red?style=for-the-badge&logo="></a>
 </p>
 <p align="center">
-<a href=""><img title="System" src="https://img.shields.io/badge/Supported%20OS-Linux%20&%20termux-orange?style=for-the-badge&logo=linux"></a>
+<a href=""><img title="System" src="https://img.shields.io/badge/Supported%20OS-Linux-orange?style=for-the-badge&logo=linux"></a>
 <a href="https://www.python.org/"><img title="Python" src="https://img.shields.io/badge/Python-3.9-yellow?style=for-the-badge&logo=python"></a>
 </p>
 
